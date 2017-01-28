@@ -1,14 +1,49 @@
-.button {
-  height: 50px;
-  width: 200px;
-  padding: 20px;
-}
-
 html, body {
     height: 100%;
     box-sizing: border-box;
+    font-family: "Roboto";
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("bg.jpg");
+}
+
+.main {
+  width: 500px;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.tagline {
+    font-size: 20px;
+    color: purple;
+}
+
+.button {
+  background-color: darkorange;
+  color:green;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background:red;
+  color:blue;
 }
